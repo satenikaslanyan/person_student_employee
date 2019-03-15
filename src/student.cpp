@@ -14,9 +14,9 @@ Student::Student(std::string s_name, std::string s_surname, int s_age, int s_gra
 
 void Student::get_info()
 {
-    Person::get_info();
     std::cout << "Grade: " << grade << " ";
     std::cout << "University: " << university << " ";
+    std::cout << std::endl;
 }
 
 void Student::set_grade(int s_grade)

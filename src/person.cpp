@@ -40,6 +40,7 @@ void Person::get_info()
     std::cout << "\nName: " << name << " ";
     std::cout << "Surname: " << surname << " ";
     std::cout << "Age: " << age << " ";
+    std::cout << std::endl;
 }
 
 void Person::set_name(std::string p_name)

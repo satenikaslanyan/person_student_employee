@@ -18,7 +18,7 @@ class Person
         void set_name(std::string p_name);
         void set_surname(std::string p_surname);
         void set_age(int p_age);
-        virtual void get_info();
+        void get_info();
 };
 
 #endif
