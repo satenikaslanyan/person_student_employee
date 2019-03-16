@@ -10,11 +10,14 @@ int main()
     Employee e("Naira", "Aslanyan", 46, 100000);
     e.get_info();
 
+   // Person a();
+
     Person* p1 = new Person("Tigran", "Aslanyan", 50);
     p1->get_info();
+
     Person* p2 = new Student("Haik", "Aslanyan", 26, 20, "YSU");
     p2->get_info();
 
-    Student* s1 = new Person("Vahan", "Aslanyan", 12);
-    s1->get_info();
+   // Student* s1 = new Person("Vahan", "Aslanyan", 12);
+   // s1->get_info();
 }
